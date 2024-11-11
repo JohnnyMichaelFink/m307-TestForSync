@@ -13,6 +13,10 @@ app.get("/", async function (req, res) {
   res.render("start", {});
 });
 
+app.get("/userinfo", async function (req, res) {
+  res.render("userinfo", {});
+});
+
 app.get("/impressum", async function (req, res) {
   res.render("impressum", {});
 });
